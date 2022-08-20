@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SPSS TUTORIAL</string>
+    <string-array name="topic_notes">
+        <item>Introduction</item>
+        <item>SPSS Enter Data</item>
+        <item>Data Transformation</item>
+        <item>DescriptiveStatistics</item>
+        <item>IndependentSampleT</item>
+        <item>PairedSampleT</item>
+        <item>oneway</item>
+        <item>LinearRegression</item>
+        <item>Multiple Regression</item>
+
+    </string-array>
+
+    <string-array name="description">
+        <item>Lesson one</item>
+        <item>Lesson two</item>
+        <item>Lesson three</item>
+        <item>Lesson four</item>
+        <item>Lesson five</item>
+        <item>Lesson six</item>
+        <item>Lesson seven</item>
+        <item>Lesson eight</item>
+        <item>Lesson nine</item>
+    </string-array>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
