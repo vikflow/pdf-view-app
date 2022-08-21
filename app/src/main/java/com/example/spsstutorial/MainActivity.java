@@ -19,7 +19,7 @@ import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    BottomNavigationView bottomNavigationView;
+
 
     String[] s1, s2;
     int[] image = {R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo,R.drawable.spss_logo,R.drawable.spss_logo};
@@ -28,11 +28,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
-        bottomNavigationView = findViewById(R.id.bottom_navigator);
-        bottomNavigationView.setSelectedItemId(R.id.home);
 
 
 
@@ -45,24 +40,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
-                switch (item.getItemId())
-                {
-                    case R.id.about:
-                        startActivity(new Intent(getApplicationContext(),AboutActivity.class));
-                        overridePendingTransition(0,0);
-                        return true;
-                    case R.id.home:
-                        return true;
-
-
-                }
-                return false;
-            }
-        });
     }
 
 
