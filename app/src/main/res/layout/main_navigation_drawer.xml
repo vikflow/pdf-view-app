@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_margin="17dp"
+        android:onClick="ClickLogo"
+        android:src="@drawable/spss_logo"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SPSS notes"
+    android:textStyle="bold"
+    android:textSize="22sp"
+    android:textColor="@color/black"
+    android:textAlignment="center"
+    />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="17dp"
+    android:background="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:onClick="clickhome"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="home" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/ic_home" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minHeight="48dp"
+        android:onClick="clickDashboard"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Dashboard" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/ic_dashboard" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minHeight="48dp"
+        android:onClick="clickPrivacy"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Privacy policy" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/ic_policy" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minHeight="48dp"
+        android:onClick="ClickLogout"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Logout" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/ic_logout" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
