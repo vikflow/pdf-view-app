@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
 
     String[] s1, s2;
-    int[] image = {R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo,R.drawable.spss_logo,R.drawable.spss_logo};
+    int[] image = {R.drawable.spss_logo,R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo, R.drawable.spss_logo,R.drawable.spss_logo,R.drawable.spss_logo};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 public void ClickHome(View view){
-        recreate();
+    redirectActivity(this,MainActivity.class);
 }
 
 public void ClickDashboard(View view){

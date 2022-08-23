@@ -10,6 +10,7 @@
         <item>oneway</item>
         <item>LinearRegression</item>
         <item>Multiple Regression</item>
+        <item>Multiple Regression</item>
 
     </string-array>
 
@@ -22,6 +23,7 @@
         <item>Lesson six</item>
         <item>Lesson seven</item>
         <item>Lesson eight</item>
+        <item>Lesson nine</item>
         <item>Lesson nine</item>
     </string-array>
     <string name="title_activity_about">AboutActivity</string>
